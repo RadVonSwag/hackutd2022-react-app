@@ -9,6 +9,7 @@ const SearchBar = (props) => {
 
     const handleChange = (e) => {
         setSearchInput(e.target.value);
+        //console.log(e.target.value);
     }
 
 
@@ -17,7 +18,7 @@ const SearchBar = (props) => {
             <div className="search-input">
                 <input 
                     type="text"
-                    placeHolder="Enter a meal..."
+                    placeholder="Enter a meal..."
                     value={searchInput}
                     onChange={handleChange}
                  />
