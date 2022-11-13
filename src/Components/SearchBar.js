@@ -13,10 +13,7 @@ const SearchBar = (props) => {
                     type="text"
                     placeHolder="Enter a meal..."
                  />
-
-
             </div>
-
         </div> 
     );
 }
