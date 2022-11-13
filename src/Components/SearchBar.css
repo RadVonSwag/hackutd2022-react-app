@@ -1,0 +1,25 @@
+.search-wrapper {
+    display: flex; 
+    flex-direction: column;
+    width: 100%; 
+    align-self: flex-start; 
+}
+
+.search-wrapper input {
+    border: 2px solid #E7E5E5; 
+    width: 90%;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #E7E5E5;
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-wrapper input:focus {
+    border-color: none;
+    outline: none;
+}
+
+.search-wrapper input::placeholder {
+    color: #B8B8B8ed; 
+}

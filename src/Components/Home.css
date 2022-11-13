@@ -1,0 +1,16 @@
+.home-container {
+    display: flex; 
+    padding: 40px;
+    flex-direction: column;
+}
+
+.welcome {
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 33px;
+    background: linear-gradient(1.5deg, #E22A2A 0%, #FCBF49 80.73%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
